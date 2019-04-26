@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.univalence</groupId>
+    <artifactId>fenek_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>Fenek is for better mapping</description>
+    <url>https://github.com/univalence/spark-tools/tree/master/fenek</url>
+    <version>0.2+103-0acdd2f5+20190405-1610</version>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>fenek</name>
+    <inceptionYear>2018</inceptionYear>
+    <organization>
+        <name>Univalence</name>
+        <url>https://univalence.io/</url>
+    </organization>
+    <scm>
+        <url>https://github.com/univalence/spark-tools</url>
+        <connection>scm:git:https://github.com/univalence/spark-tools.git</connection>
+        <developerConnection>scm:git:git@github.com:univalence/spark-tools.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>jwinandy</id>
+            <name>Jonathan Winandy</name>
+            <email>jonathan@univalence.io</email>
+            <url>https://github.com/ahoy-jon</url>
+        </developer>
+        <developer>
+            <id>phong</id>
+            <name>Philippe Hong</name>
+            <email>philippe@univalence.io</email>
+            <url>https://github.com/hwki77</url>
+        </developer>
+        <developer>
+            <id>fsarradin</id>
+            <name>François Sarradin</name>
+            <email>francois@univalence.io</email>
+            <url>https://github.com/fsarradin</url>
+        </developer>
+        <developer>
+            <id>bernit77</id>
+            <name>Bernarith Men</name>
+            <email>bernarith@univalence.io</email>
+            <url>https://github.com/bernit77</url>
+        </developer>
+        <developer>
+            <id>HarrisonCheng</id>
+            <name>Harrison Cheng</name>
+            <email>harrison@univalence.io</email>
+            <url>https://github.com/HarrisonCheng</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.12</version>
+        </dependency>
+        <dependency>
+            <groupId>io.univalence</groupId>
+            <artifactId>typedpath_2.11</artifactId>
+            <version>0.2+103-0acdd2f5+20190405-1610</version>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json4s</groupId>
+            <artifactId>json4s-native_2.11</artifactId>
+            <version>3.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.11</artifactId>
+            <version>3.0.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.11</artifactId>
+            <version>1.13.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
